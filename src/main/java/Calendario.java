@@ -8,6 +8,7 @@ public class Calendario {
         Calendar cal = Calendar.getInstance();
         cal.set(year, month, 1);
 
+
         int daysInMonth = cal.getActualMaximum(Calendar.DAY_OF_MONTH);
 
         System.out.println("Calendario de Noviembre de 2023:");
